@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/view_mode"
+        android:title="View Mode"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_list"
+                android:title="@string/list"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_grid"
+                android:title="@string/grid"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_quran"
+        android:title="@string/quran"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dzikir_shalawat"
+        android:title="Dzikir &amp; Shalawat"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_shalawat"
+                android:title="@string/shalawat"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_wirid"
+                android:title="@string/wirid"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_registrasi"
+        android:title="@string/registrasi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/info"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+</menu>

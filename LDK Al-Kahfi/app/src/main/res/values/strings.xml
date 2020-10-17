@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LDK Al-Kahfi</string>
+    <string name="divisi_name">Nama Divisi</string>
+    <string name="detail">Detail</string>
+    <string name="koord">Koordinator</string>
+    <string name="sekretaris">Sekretaris Divisi</string>
+    <string name="bendahara">Bendahara Divisi</string>
+    <string name="ketua_umum">Ketua Umum</string>
+    <string name="abdl">Muhamad Abdul Aziz</string>
+    <string name="sekjen">Sekretaris Jenderal</string>
+    <string name="wahyu">Wahyu Sandana</string>
+    <string name="bendum">Bendahara Umum</string>
+    <string name="f">Fofi Faujiah</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="about">About</string>
+    <string name="email">azizgimboell@gmail.com</string>
+    <string name="quran">Qur\'an</string>
+    <string name="shalawat">Ratib Al-Haddad</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="wirid">Wirdul Lathif</string>
+    <string name="nim">NIM</string>
+    <string name="dev">Dev</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Email (Uniku)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_register">Register</string>
+    <string name="hint_nomor">No. Handphone (WhatsApp)</string>
+    <string name="hint_fakultas">Fakultas</string>
+    <string name="hint_prodi">Program Studi</string>
+
+</resources>
