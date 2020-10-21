@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,7 +17,7 @@ import com.example.ldk.Modules.ImportFromFile.LiterationInteractor
 import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity(), Literation {
-    private val list1 = ArrayList<Divisi>()
+//    private val list1 = ArrayList<Divisi>()
     private val list = ArrayList<Divisi>()
     private lateinit var rv_divisi: RecyclerView
     val interactor = LiterationInteractor(this, this)
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity(), Literation {
         rv_divisi =findViewById(R.id.rv_divisi)
         rv_divisi.setHasFixedSize(true)
         list.addAll(listData)
-        list1.addAll(listDev)
+//        list1.addAll(listDev)
         showRecyclerList()
         supportActionBar
     }
@@ -57,9 +58,10 @@ class MainActivity : AppCompatActivity(), Literation {
         })
     }
     fun ShowAbout(){
-        rv_divisi.layoutManager = GridLayoutManager(this, 2)
-        val gridDivisiAdapter = AboutAdapter(list1)
-        rv_divisi.adapter = gridDivisiAdapter
+//        rv_divisi.layoutManager = GridLayoutManager(this, 2)
+//        val gridDivisiAdapter = AboutAdapter(list1)
+//        rv_divisi.adapter = gridDivisiAdapter
+        Toast.makeText(this, "Masih sangat sederhana, harap bisa dikembangkan lagi:)", Toast.LENGTH_LONG).show()
     }
 
     fun showRecyclerGrid() {
