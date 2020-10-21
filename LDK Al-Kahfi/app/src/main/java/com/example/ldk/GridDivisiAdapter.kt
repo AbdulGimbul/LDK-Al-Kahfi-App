@@ -27,7 +27,7 @@ class GridDivisiAdapter(private val listDivisi: ArrayList<Divisi>) : RecyclerVie
                 .load(listDivisi[position].photo)
                 .apply(RequestOptions().override(150, 150))
                 .into(holder.imgPhoto)
-        holder.itemView.setOnClickListener { onItemClickCallback!!.onItemClicked(listDivisi[holder.adapterPosition]) }
+        holder.itemView.setOnClickListener { onItemClickCallback?.onItemClicked(listDivisi[holder.adapterPosition]) }
     }
 
     override fun getItemCount(): Int {

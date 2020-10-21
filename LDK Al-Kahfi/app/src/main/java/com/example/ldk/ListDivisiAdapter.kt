@@ -34,7 +34,7 @@ class ListDivisiAdapter(private val listDivisi: ArrayList<Divisi>) : RecyclerVie
         holder.tvBph.text = divisi.bph
         holder.tvSekretatis.text = divisi.sekretaris
         holder.tvBendahara.text = divisi.bendahara
-        holder.itemView.setOnClickListener { onItemClickCallback!!.onItemClicked(listDivisi[holder.adapterPosition]) }
+        holder.itemView.setOnClickListener { onItemClickCallback?.onItemClicked(listDivisi[holder.adapterPosition]) }
     }
 
     override fun getItemCount(): Int {
