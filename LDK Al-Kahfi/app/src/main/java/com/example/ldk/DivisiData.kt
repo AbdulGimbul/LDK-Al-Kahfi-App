@@ -43,11 +43,11 @@ object DivisiData {
     private val picture = intArrayOf(R.drawable.tedi,R.drawable.abdl1,R.drawable.reda)
     private val bphNames = arrayOf(
             "Koordinator ada di setiap list divisi",
-            "Azmi Abdurrahman",
-            "Ika Irawan",
-            "Fery Fathurrahman",
-            "Rindi Yulistiani Utama Putri",
-            "Gugun Ruhyat",
+            "Riki Aripani",
+            "Ibnu Saepuloh",
+            "Muhammad Miftah Miftahhudin",
+            "Nadya Suhartika",
+            "Andriansyah",
             "Rifki Muhammad Firmansyah",
             "Karena program ini dikelola oleh Divisi Al-Qur'an, maka koordinatornya adalah koord. Divisi Al-Qur'an, yaitu Azmi Abdurrahman",
             "Program ini dikelola oleh Divisi Kaderisasi, maka Koordinatornya yang bertanggung jawab atas program ini yaitu Fery Fathurrahman",
